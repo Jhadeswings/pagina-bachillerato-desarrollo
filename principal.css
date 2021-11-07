@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+body {
+  background-color: #F9D1C9;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+video{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+.cabecera{
+  background-color:#A52A2A;
+  width: 965px;
+  height: 80px;
+  margin: 0px auto;
+  color:  #782515;
+  box-shadow: 0px 0px 30px 40px  #A52A2A;
+  moz-box-shadow: 0px 0px 30px 40px  #A52A2A;
+  -o-box-shadow: 0px 0px 30px 40px #A52A2A;
+  -webkit-box-shadow: 0px 0px 30px 40px  #A52A2A;
+  margin-bottom: 30px;
+}
+.contenedor{
+  background-image:url(img/k.jpg);
+  width: 980px;
+  height: 1050px;
+  box-shadow: 0px 0px 20px 30px  #A52A2A;
+  -moz-box-shadow: 0px 0px 20px 30px  #A52A2A;
+  -o-box-shadow: 0px 0px 20px 30px  #A52A2A;
+  -webkit-box-shadow: 0px 0px 20px 30px   #A52A2A;
+  border-radius: 0px 0px 50px 50px;
+  margin: 0px auto;
+  opacity: 85%;
+}
+a{
+  text-align: center;
+  color: #020302;
+  text-decoration: none;
+  background-color:   #E9967A;
+  font-size: 20px;
+  font-weight: 900;
+  border: 1px solid   #020302;
+  margin-left: 5px;
+  border-radius: 0px 0px 10px 10px;
+}
+a:hover{
+  background-color:   #FF4500;
+  color: #E9967A;
+}
+h1{
+  margin-top: 1px;
+  font-size: 30pt;
+  text-shadow: 0px 0px 15 px #6A0101;
+}
+td {
+   width: 300px;
+   height: 100px;
+  padding: 1em;
+  border: 2px solid; 
+  border-radius: 1em;
+  margin:0px auto;
+  background-image: url(imag/ga.jpg);
+  border-radius: 0px 0px 10px 10px;
+  text-align:justify;
+  font-family: 'Mochiy Pop One', sans-serif;
+  opacity: 85%;
+  color: #000000;
+}
+p{
+  text-align:justify;
+  font-family: 'Source Serif Pro', serif;
+  
+}
+#titulo {
+    text-align: center;
+}
+
+#boton1,
+#boton2,
+#boton3 {
+    text-align: center;
+    width: 100px;
+}
